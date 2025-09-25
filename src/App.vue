@@ -37,7 +37,7 @@ const yesBtn = ref(false)
 <template>
   <div class="screen">
     <img :src="yesBtn ? 'https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif' : 'https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif'" alt="">
-    <h1>{{ yesBtn ? "Slanh O teang jeang ke 😽" : "Will you be my Valentine?" }}</h1>
+    <h1>{{ yesBtn ? "Vid Slanh O teang jeang ke 😽" : "Will you be my Valentine?" }}</h1>
     <div class="group-btn" v-if="yesBtn == false">
       <button class="btn btn-yes"
        @click="yesBtn = true"
